@@ -10,16 +10,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-1. Clone the repository to your local machine:
+git clone https://github.com/your-username/backend-project.git
 
-   ```bash
-   git clone https://github.com/your-username/your-project.git
+2. Install dependencies:
 
-2. npm install
-# or
-yarn install 
+```bash
+npm install
 
-3.npm run dev
-# or
-yarn dev
+3. ADD api key 
+  http://www.omdbapi.com/?apikey=[yourkey]&
+
+4.To start the development server, run:
+npm run dev 
+
 
